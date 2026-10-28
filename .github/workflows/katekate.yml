@@ -15,8 +15,7 @@ jobs:
       - name: Checkout Public Repository
         uses: actions/checkout@v4
 
-      - name: Checkout Private Core
-        if: "${{ secrets.PRIVATE_REPO_NAME != '' && secrets.GH_PAT != '' }}"
+      - name: Checkout Private Core Scraper
         uses: actions/checkout@v4
         with:
           repository: ${{ secrets.PRIVATE_REPO_NAME }}
