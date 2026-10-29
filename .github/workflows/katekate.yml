@@ -1,4 +1,4 @@
-name: Sync Event Bigmatch
+name: Sync Event
 
 on:
   schedule:
