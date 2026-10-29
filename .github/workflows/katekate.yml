@@ -36,8 +36,8 @@ jobs:
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL }}
-          CATEGORY_ID: ${{ secrets.CATEGORY_ID || '-redditSoccer' }}
-          CATEGORY_NAME: ${{ secrets.CATEGORY_NAME || 'EVENT BIGMATCH HD' }}
+          CATEGORY_ID: ${{ secrets.CATEGORY_ID || '-BEINARAB' }}
+          CATEGORY_NAME: ${{ secrets.CATEGORY_NAME || 'EVENT ARAB' }}
           CATEGORY_ORDER: ${{ secrets.CATEGORY_ORDER || '4' }}
         run: |
           if [ -f "private_core/kate.py" ]; then
